@@ -1,0 +1,103 @@
+body, .navbar-custom
+{
+    background-color: #000f28;
+    font-family: 'Scada', sans-serif;
+}
+
+.brand-custom
+{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    background: linear-gradient(#9C3848, #FFAD69, #F5E663);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile
+{
+    border-radius: 50%;
+}
+
+.about-caption, .project-caption
+{
+    font-size: 1.5rem;
+}
+
+.small-caption
+{
+    font-size: 1rem;
+}
+
+.about-section
+{
+    
+}
+
+.about-div
+{
+    background-color: #437F97;
+}
+
+.skills-section
+{
+    background-color: #437F97;
+}
+
+.skills-heading
+{
+    background-color: #000f28;
+}
+
+.card
+{
+    background-color: #000f28;
+    color: #ffffff;
+    padding-block-end: 2rem;
+}
+
+.list-group-item
+{
+    background-color: #9C3848;
+    color: #ffffff;
+}
+
+.project-section
+{
+    background-color: #000f28;
+}
+
+.project-heading
+{
+    background-color: #437F97;
+}
+
+.contact-section
+{
+    background-color: #437F97;
+}
+
+.contact-div
+{
+    background-color: #000f28;
+}
+
+.github-button
+{
+    background-color: #F5E663;
+    color: black;
+    border-radius: 50%;
+}
+
+.linkedin-button
+{
+    background-color: #FFAD69;
+    color: black;
+    border-radius: 50%;
+}
+
+.email-button
+{
+    background-color: #9C3848;
+    color: black;
+    border-radius: 50%;
+}
