@@ -1,210 +1,222 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Patrick Larabee</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/fullpage.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Scada" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/fullpage.js"></script>   
-    </head>
-    <body data-spy="scroll" data-target="#nav" data-offset="0">
-        <!-- NAVIGATION -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom" id="nav">
-                <a class="navbar-brand brand-custom" href="#">Patrick Larabee</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact </a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-2">
-                                <a class="btn btn-sm btn-dark github-button" href="https://github.com/plarabee"><i class="fab fa-github fa-2x"></i></a>
-                        </li>
-                        <li class="nav-item mx-2">
-                                <a class="btn btn-sm btn-dark linkedin-button" href="https://www.linkedin.com/in/plarabee/"><i class="fab fa-linkedin fa-2x"></i></a>
-                        </li>
-                        <li class="nav-item mx-2">
-                                <a class="btn btn-sm btn-dark email-button" href="mailto:plarabeesearch@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-        <div id="wrapper">
-
-            <!-- ABOUT -->
-            <div class="section fp-auto-height-responsive about-section">
-                <div class="jumbotron jumbotron-fluid text-white about-div" id="about">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm6 mr-3 mb-5">
-                                    <img src="img/profile.jpg" alt="profile" class="img-thumbnail profile">
-                            </div>
-                            <div class="col-sm6 ml-3">
-                                <h1 class="display-4" ">Hi, I'm Patrick</h1>
-                                <hr class="about-break">
-                                <p class="about-caption">
-                                    sysadmin. web developer. huge computer nerd.
-                                </p>
-                                <hr class="about-break">
-                                <p class="about-caption small-caption">
-                                    I'm interested in managing Windows/Linux servers, building web applications,  and automating repetitive tasks.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SKILLS -->
-            <div class="section fp-auto-height-responsive skills-section">
-                <div class="container-fluid mb-5 p-3 skills-heading" id="skills">
-                    <h2 class="ml-3 text-white">Skills</h2>
-                </div>
-                <div class="container-fluid skills">
-                    <div class="card-deck mb-3 mx-5">
-                        <div class="card col-sm-6 col-md-4">
-                            <div class="card-header">
-                                <h5 class="text-center">Frontend</h5>
-                            </div>
-                            <ul class="list-group  list-group-flush text-center">
-                                <li class="list-group-item">HTML</li>
-                                <li class="list-group-item">CSS</li>
-                                <li class="list-group-item">Javascript</li>
-                                <li class="list-group-item">Bootstrap</li>
-                            </ul>
-                            </div>
-                            <div class="card col-sm-6 col-md-4">
-                            <div class="card-header">
-                                <h5 class="text-center">Backend</h5>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item">C#</li>
-                                <li class="list-group-item">ASP.NET</li>
-                                <li class="list-group-item">ASP.NET Core</li>
-                                <li class="list-group-item">Entity Framework</li>
-                            </ul>
-                            </div>
-                            <div class="card col-sm-6 col-md-4">
-                            <div class="card-header">
-                                <h5 class="text-center">Scripting</h5>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item">Bash</li>
-                                <li class="list-group-item">Powershell</li>
-                                <li class="list-group-item">Python</li>
-                                <li class="list-group-item">Ruby</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-deck mx-5">
-                        <div class="card col-sm-6 col-md-4">
-                            <div class="card-header">
-                                <h5 class="text-center">Windows</h5>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item">Active Directory</li>
-                                <li class="list-group-item">HyperV</li>
-                                <li class="list-group-item">IIS</li>
-                                <li class="list-group-item">SCCM</li>
-                                <li class="list-group-item">SQL Server</li>
-                            </ul>
-                            </div>
-                            <div class="card col-sm-6 col-md-4">
-                            <div class="card-header">
-                                <h5 class="text-center">Linux</h5>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item">CentOS, RHEL, Ubuntu</li>
-                                <li class="list-group-item">KVM, Proxmox</li>
-                                <li class="list-group-item">RHCSA</li>
-                                <li class="list-group-item">Apache, Nginx</li>
-                                <li class="list-group-item">MySQL, PostgreSQL</li>
-                            </ul>
-                            </div>
-                            <div class="card col-sm-6 col-md-4">
-                            <div class="card-header">
-                                <h5 class="text-center">Tools</h5>
-                            </div>
-                            <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item">Terminal</li>
-                                <li class="list-group-item">Visual Studio Code</li>
-                                <li class="list-group-item">Visual Studio</li>
-                                <li class="list-group-item">Git</li>
-                                <li class="list-group-item">Postman</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PROJECTS -->
-            <div class="section fp-auto-height-responsive project-section">
-                <div class="container-fluid p-3 project-heading" id="projects">
-                    <h2 class="ml-3 text-white">Projects</h2>
-                </div>
-                <div class="container my-4 p-3 project">
-                    <h2 class="text-center mb-3 text-white"><u>HelpDeskCore</u></h2>
-                    <img src="img/helpdeskcore1.jpg" alt="helpdeskcore1" class="img-fluid helpdeskcore1">
-                    <p class="mt-2 project-caption text-white">
-                        A simple IT ticketing system created with C# and ASP.NET Core MVC. It is running on 
-                        Ubuntu 18.04 with PostgreSQL as the database and nginx as a reverse proxy.
-                    </p>
-                    <div class="text-center my-4"><a class="btn btn-lg btn-primary" href="http://helpdeskcore.plarabee.com">Live Demo</a></div>
-                </div>
-            </div>
-            
-            <!-- CONTACT -->
-            <div class="section fp-auto-height-responsive contact-section">
-                <div class="jumbotron jumbotron-fluid mt-5 text-white contact-div" id="contact">
-                    <div class="container">
-                        <h1 class="display-4">Contact</h1>
-                        <hr class="about-break">
-                        <p class="about-caption">
-                            Have something to say? Connect with me on one of the following platforms:
-                        </p>
-                        <div class="row mt-5">
-                            <div class="col-sm-4 text-center mb-3">
-                                <a class="btn btn-lg btn-dark github-button" href="https://github.com/plarabee"><i class="fab fa-github fa-2x"></i></a>
-                            </div>
-                            <div class="col-sm-4 text-center mb-3">
-                                <a class="btn btn-lg btn-dark linkedin-button" href="https://www.linkedin.com/in/plarabee/"><i class="fab fa-linkedin fa-2x"></i></a>
-                            </div>
-                            <div class="col-sm-4 text-center mb-3">
-                                <a class="btn btn-lg btn-dark email-button" href="mailto:plarabeesearch@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Larabee</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
+        <a class="navbar-brand" href="#">Patrick Larabee</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-2">
+                        <a class="btn btn-sm contact-button" href="https://github.com/plarabee"><i class="fab fa-github fa-2x"></i></a>
+                </li>
+                <li class="nav-item mx-2">
+                        <a class="btn btn-sm contact-button" href="https://www.linkedin.com/in/plarabee/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </li>
+                <li class="nav-item mx-2">
+                        <a class="btn btn-sm contact-button" href="mailto:plarabeesearch@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <script>
-            $(document).ready(function() {
-                $('#wrapper').fullpage();
-            }); 
-        </script>
+    <!-- ABOUT -->
+    <div class="container-fluid" id="about">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mb-5">
+                            <img src="img/profile.jpg" alt="profile" class="img-thumbnail profile">
+                            <h1 id="about-header" class="display-4">Patrick Larabee</h1>
+                            <hr>
+                            <p><em>sysadmin, developer, tech enthusiast</em></p>
+                            <hr>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>
+                            I have a passion for technology and learning how things work. I am
+                            primarily interested in the web, linux, and automation. I currently
+                            work as a Systems Administrator for a local non-profit organization.
+                            In my current role, I maintain Windows server infrastructure that 
+                            is key to the organization and to the well-being of its' clients.
+                        </p>
+                        <p>
+                            Prior to this, I worked for the University of Central Florida supporting 
+                            College of Sciences research faculty. I was member of a team that provided
+                            desktop engineering solutions some of the many colleges within U.C.F. It
+                            was here that I was introduced to automation through configuration management
+                            and scripting. It also sparked a fascination with linux and programming.
+                        </p>
+                        <p>
+                            In the time since, I have been on a journey to learn anything and everything 
+                            I can about computing, software development, and related technologies. Outside
+                            of work I regularly complete online courses, work with my homelab, and develop
+                            personal programming projects such as web applications.
+                        </p>
+                        <p>
+                            Outside of technology, I can be found reading or spending time with my wife and two australian
+                            shepherds in Orlando, FL.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </body>
+    <!-- SKILLS -->
+    <div class="container-fluid header">
+        <h2>Skills</h2>
+    </div>
+
+    <div class="container-fluid" id="skills">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <img class=" img-fluid img-skills" src="https://images.unsplash.com/photo-1551703599-6b3e8379aa8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+                alt="Networking/Computer Equipment">
+            </div>
+            <div class="col-md-6 col-sm-12 skills-section">
+                <h3>Systems Administration</h3>
+                <hr>
+                <ul>
+                    <li>CentOS, RHEL, Ubuntu, Windows Server</li>
+                    <li>Active Directory, Group Policy, SCCM, SCOM</li>
+                    <li>HyperV, KVM, Proxmox</li>
+                    <li>Apache, Nginx, IIS</li>
+                    <li>MySQL, MongoDB, PostgreSQL, SQL Server</li>
+                    <li>Cisco Firewalls, Switches</li>
+                    <li>Red Hat Certified System Administrator</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 skills-section">
+                <h3>Web Development</h3>
+                <hr>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>C#</li>
+                    <li>ASP.NET Core</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="img-fluid img-skills" src="https://images.unsplash.com/photo-1527427337751-fdca2f128ce5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="Javascript Code on Screen">
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid img-skills" src="https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1216&q=80"
+                    alt="Toolbench with Tools">
+                </div>
+                <div class="col-md-6 col-sm-12 skills-section">
+                    <h3>Tools</h3>
+                    <hr>
+                    <ul>
+                        <li>Bash, Powershell, Python</li>
+                        <li>Visual Studio Code</li>
+                        <li>Git</li>
+                        <li>NPM, Pipenv, Nuget</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="container-fluid header">
+        <h2>Projects</h2>
+    </div>
+    <div class="container-fluid" id="projects">
+    <div class="container-fluid">
+            <h3>Simple Blog</h3>
+            <hr>
+            <img class="img-fluid img-projects" src="img/blog-demo.png"
+            alt="Blog Demo">
+            <p>
+                A blog template that features authentication, comments, and sanitized HTML markup for posts.
+            </p>
+            <p>
+                It is built with Node.js, Express, and MongoDB. It is hosted on an Ubuntu 18.04 Digital Ocean
+                droplet using nginx.
+            </p>
+            <div class="text-center my-4"><a class="btn btn-lg btn-success" href="https://github.com/plarabee/blog">Source</a></div>
+            <!-- <div class="text-center my-4"><a class="btn btn-lg btn-primary" href="http://helpdeskcore.plarabee.com">Live Demo</a></div> -->
+        </div>
+        <div class="container-fluid">
+            <h3>HelpDeskCore</h3>
+            <hr>
+            <img class="img-fluid img-projects" src="img/helpdeskcore1.jpg"
+            alt="HelpDeskCore">
+            <p>
+                An IT ticketing system that can track support tickets and assets. It features search, sorting, and pagination. 
+            </p>
+            <p>
+                It was created with C#, ASP.NET Core MVC, Entity Framework Core, and PostgreSQL. It is hosted on an Ubuntu 18.04 Digital Ocean
+                droplet using nginx.
+            </p>
+            <div class="text-center my-4"><a class="btn btn-lg btn-success" href="https://github.com/plarabee/HelpDeskCore">Source</a></div>
+            <div class="text-center my-4"><a class="btn btn-lg btn-primary" href="http://helpdeskcore.plarabee.com">Live Demo</a></div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="jumbotron jumbotron-fluid" id="contact">
+        <div class="container">
+            <h1 class="display-4">Contact</h1>
+            <hr class="about-break">
+            <p class="about-caption">
+                Have something to say? Connect with me on one of the following platforms:
+            </p>
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12 text-center">
+                    <a class="btn btn-lg contact-button" href="https://github.com/plarabee"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <a class="btn btn-lg contact-button" href="https://www.linkedin.com/in/plarabee/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <a class="btn btn-lg contact-button" href="mailto:plarabeesearch@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
